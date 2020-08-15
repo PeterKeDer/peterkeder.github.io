@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Peter Ke</title>
+
+        <!-- Styldsheet -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Open Sans Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/font-awesome/css/all.css">
+
+        <!-- Boostrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-expanded" id="navbar">
+            <a href="#" class="navbar-brand">Peter Ke</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me-section">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technologies-section">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects-section">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-info-section">Contact Info</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header id="header">
+            <div class="dark-overlay">
+                <div id="header-content">
+                    <h1 id="header-title">Peter Ke</h1>
+                    <p id="header-description">Student &amp; Software Developer</p>
+                    <a id="header-down-button" href="#about-me-section"><i class="fas fa-angle-double-down"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- TODO: add scroll down button -->
+        <!-- TODO: make navbar a bit more blue? -->
+        <!-- TODO: skills section, with horizontal, scrollable icons -->
+
+        <!-- About Me -->
+        <section id="about-me-section">
+            <div class="container">
+                <h2>About Me</h2>
+
+                <p>Hi! I'm Peter Ke, an undergraduate student at the University of Toronto. I'm enrolled in the Computer Science Specialist and the Statistics Minor programs. I have many years of programming experience, specializing mostly in mobile and web development.</p>
+
+                <p>As a kid, I was always fascinated by computers. I started programming in high school by learning iOS development with Swift. Along with a friend, we developed and published four apps to the iOS App Store with thousands of total downloads. Since then, my love for programming has not diminished. I continued by learning Python, web development, systems programming, and more. I've also worked as an iOS developer intern in a professional team. My most recent project consists of building an object-oriented programming language from the ground up.</p>
+
+                <p>I'm currently looking for a summer internship in software development.</p>
+
+                <a class="btn btn-primary" href="#contact-info-section">Contact Me</a>
+                <a class="btn btn-secondary" href="files/Resume_PeterKe.pdf" download>Download Resume</a>
+            </div>
+        </section>
+
+        <section id="technologies-section">
+            <div class="container">
+                <h2>Technologies</h2>
+
+                <div class="horizontal-grid">
+                    <div class="horizontal-grid-item">
+                        <img src="assets/python-logo.png" alt="Python Logo">
+                        <p>Python</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/swift-logo.png" alt="Swift Logo">
+                        <p>Swift</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/java-logo.png" alt="Java Logo">
+                        <p>Java</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/javascript-logo.png" alt="JavaScript Logo">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/typescript-logo.png" alt="TypeScript Logo">
+                        <p>TypeScript</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/rust-logo.png" alt="Rust Logo">
+                        <p>Rust</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/flutter-logo.png" alt="Flutter Logo">
+                        <p>Flutter</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/react-logo.png" alt="React Logo">
+                        <p>React</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/vuejs-logo.png" alt="Vue.js Logo">
+                        <p>Vue.js</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/git-logo.png" alt="Vue.js Logo">
+                        <p>Git</p>
+                    </div>
+                    <div class="horizontal-grid-item">
+                        <img src="assets/linux-logo.png" alt="Vue.js Logo">
+                        <p>Linux</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+
+                <p>Here's the highlights of some of the projects I made. Most of my projects are available on my GitHub.</p>
+
+                <a class="btn btn-dark" href="https://github.com/PeterKeDer/"><i class="fab fa-github"></i>&nbsp; My GitHub Page</a>
+            </div>
+        </section>
+
+        <!-- Dove -->
+        <section id="dove-section" class="project-section">
+            <div class="container">
+                <h2>Dove Programming Language</h2>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Dove is a dynamically-typed, object-oriented programming language, focused on simplicity. Its syntax is inspired by modern languages like Python and Swift. The language supports features like basic data types, variables, branching, looping, functions, classes, basic IO, and importing files.
+
+                        <p>The interpreter is written in Rust, which allowed us to port it to WebAssembly and make an online playground fairly easily. It currently uses a tree-walk algorithm to execute the code, but a bytecode compiler/VM is in progress to increase the runtime performance.</p>
+
+                        <a class="btn btn-primary" href="http://dove-lang.com/playground/">Try it Online</a>
+                        <a class="btn btn-dark" href="https://github.com/dove-lang/dove"><i class="fab fa-github"></i>&nbsp; See Project On GitHub</a>
+                    </div>
+                    <div class="col-sm-12 col-md-7 col-lg-5">
+                        <img src="assets/dove-example.PNG" alt="Dove Example" style="width: 100%;">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Connect 5 -->
+        <section id="connect-5-section" class="project-section">
+            <div class="container">
+                <h2>Connect 5 Game</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+                        <img src="assets/connect-5.jpg" alt="Connect 5">
+                    </div>
+
+                    <div class="col">
+                        <p>Connect 5 is a two-player, turn-based board game on a square grid, where the first player to connect five pieces in straight a line wins. The game is a cross-platform (iOS/Android) mobile app, written in Dart using Flutter. It supports singleplayer where the player plays against an AI with a minmax algorithm, and also real-time online multiplayer. The server is created with Express, written in TypeScript, and deployed on Heroku. The real-time communication between front-end and back-end is achieved using Socket.io.</p>
+
+                        <a class="btn btn-dark" href="https://github.com/PeterKeDer/connect-5-flutter"><i class="fab fa-github"></i>&nbsp; Mobile App</a>
+                        <a class="btn btn-dark" href="https://github.com/PeterKeDer/connect-5-server"><i class="fab fa-github"></i>&nbsp; Server</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course manager -->
+        <section id="course-manager-section" class="project-section">
+            <div class="container">
+                <h2>Course Manager CLI</h2>
+            </div>
+        </section>
+
+        <!-- Contact Info -->
+        <section id="contact-info-section">
+            <div class="container">
+                <h2>Contact Info</h2>
+            </div>
+        </section>
+
+        <!-- Scripts -->
+        <script class="container" src="script.js"></script>
+
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"  crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
