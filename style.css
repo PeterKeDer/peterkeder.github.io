@@ -146,8 +146,14 @@ a.btn {
     object-fit: contain;
 }
 
-.project-section img {
+.project-img {
     width: 100%;
     margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px;
+}
+
+#contact-info-section a {
+    color: black;
 }
 
