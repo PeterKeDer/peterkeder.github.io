@@ -1,13 +1,21 @@
-function updateNavbar() {
-    const offset = document.documentElement.scrollTop;
+function windowOnScroll() {
+    const scrollOffset = document.documentElement.scrollTop;
     const navbar = document.getElementById('navbar');
-    if (offset > 450) {
+    const overlay = document.getElementById('header-dark-overlay');
+    const height = overlay.offsetHeight;
+
+    // Update navbar color and size
+    if (scrollOffset > height * 0.5) {
         navbar.classList.remove('navbar-expanded');
     } else {
         navbar.classList.add('navbar-expanded');
     }
-};
 
-window.onscroll = updateNavbar;
+    // Update dark overlay opacity
+    const overlayOpacity = 0.8 + 0.15 * Math.max(scrollOffset / height, 0);
+    overlay.style.backgroundColor = `rgba(10,10,10,${overlayOpacity})`;
+}
 
-updateNavbar();
+window.onscroll = windowOnScroll;
+
+windowOnScroll();
