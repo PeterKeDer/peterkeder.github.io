@@ -153,7 +153,26 @@ a.btn {
     box-shadow: 0 0 3px;
 }
 
-#contact-info-section a {
+a.contact-link {
     color: black;
 }
 
+a.contact-link:hover {
+    color: gray;
+}
+
+footer {
+    background-color: rgba(30, 35, 40, 1);
+    color: white;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: darkgray;
+}
